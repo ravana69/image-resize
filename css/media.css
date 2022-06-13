@@ -1,0 +1,697 @@
+/*!
+ * Media style sheet
+ */
+/* Media 24 inch Desktop View */
+/* Media 22 inch Desktop View */
+/* Media 20 inch Desktop View */
+/* Media 19 inch Desktop View */
+/* Media 18 inch Desktop View */
+/* Media 15 inch Notebook View */
+/* Media 13 inch Notebook View + Kindle HD */
+/* Media Bootstrap screen-medium View */
+@media (max-width: 1200px) {
+  .extlink .lione, .extlink .litwo {
+    padding: 10px;
+  }
+
+  .extlink p.head {
+    font-size: 20px;
+  }
+}
+/* Media 12 inch & 10 inch Notebook View */
+@media (max-width: 1052px) {
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 67px;
+  }
+
+  .table-resize .tr {
+    font-size: 12px;
+  }
+
+  .table-resize .tr .td:first-child {
+    width: 36%;
+    height: 30px;
+    line-height: 2.2;
+  }
+
+  .table-resize .tr .td:last-child {
+    width: 30%;
+  }
+
+  .table-resize .tr .td {
+    /*width: 22%; */
+  }
+
+  .table-resize .tr input, .table-resize .tr input[disabled], .table-resize .tr input[readonly] {
+    width: 60px;
+    margin-left: 2px;
+  }
+
+  .table-resize .tr .td.opt {
+    width: 35%;
+  }
+
+  .table-resize .tr .td.last {
+    width: 32%;
+  }
+
+  .table-resize .tr.bor-tb .td.opt, .table-resize .tr.bor-tb .td.last {
+    margin-top: 6px;
+  }
+
+  .table-resize .tr .td.wd66 {
+    width: 63%;
+  }
+
+  select#soflow-color {
+    width: 60px;
+    padding-left: 2px;
+    left: 2px;
+  }
+}
+/* Media 12 inch & 10 inch Notebook View */
+/* Media Bootstrap screen-small View */
+/* Media Bootstrap screen-small View breakdown */
+@media (max-width: 991px) {
+  .intro .drag-section {
+    margin-top: 15px;
+  }
+
+  .dropzone {
+    top: -4px;
+  }
+
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 69px;
+  }
+
+  .intro .drag-section .col-md-3 img {
+    width: 100%;
+  }
+
+  .table-resize {
+    margin-top: 15px;
+  }
+
+  .table-resize .tr {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .contact .form-horizontal .control-label {
+    display: none;
+  }
+
+  .contact form {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .privacy .pol.page-header {
+    font-size: 28px;
+  }
+
+  .privacy {
+    word-break: break-all;
+  }
+
+  .extlink-cont .extlink.square {
+    width: 50%;
+  }
+
+  .extlink-cont {
+    display: block;
+    float: left;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .extlink.square {
+    padding: 1%;
+    margin-bottom: 20px;
+  }
+
+  .extlink .lione, .extlink .litwo {
+    padding: 10px 20px;
+  }
+
+  .extlink p.head {
+    font-size: 22px;
+  }
+
+  .extlink img {
+    padding: 0 30px;
+  }
+
+  .dashed-section .features-list-container p {
+    margin: 0.7em;
+    font-size: 1.1em;
+  }
+}
+/* Media old Monitor View */
+/* Media old Monitor VGA View */
+/* Media 8.9 inch Kindle HD View */
+/* Media Apple iPAD View */
+@media (max-width: 768px) {
+  .extlink-cont {
+    width: 100%;
+  }
+}
+/* Media Bootstrap extra-small View */
+@media (max-width: 767px) {
+  .navbar-fixed-top .navbar-collapse, .container > .navbar-header {
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container > .navbar-header {
+    text-align: right;
+  }
+
+  .fix-head .text-right {
+    margin-right: 30px;
+  }
+
+  .navbar-custom .navbar-nav {
+    text-align: right;
+    width: 100%;
+  }
+
+  .navbar-custom .navbar-nav li {
+    text-align: right;
+    width: 100%;
+  }
+
+  .col-extlink {
+    width: 50%;
+  }
+}
+/* Media Apple iPhone 6+ Landscape View */
+@media (max-width: 736px) {
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 67px;
+  }
+
+  .intro #processing-message {
+    left: 40px;
+    right: 40px;
+  }
+}
+/* Media Apple iPhone 6 Landscape View */
+@media (max-width: 680px) {
+  .table-resize .tr .td:first-child {
+    width: 80%;
+  }
+
+  .table-resize .tr .td, .table-resize .tr .td:last-child {
+    width: 45%;
+  }
+
+  .table-resize .tr.bor-tb .td {
+    width: 100%;
+    margin: 6px 0px;
+  }
+
+  .table-resize .tr.bor-tb .td label {
+    width: 60%;
+  }
+
+  .intro ul.tabs-action li {
+    font-size: 12px;
+  }
+
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 61px;
+  }
+
+  .extlink.square {
+    padding: 3%;
+  }
+
+  .extlink img {
+    padding: 0 10px;
+  }
+}
+/* Media Android Landscape View */
+@media (max-width: 640px) {
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 57px;
+  }
+
+  .extlink p.head {
+    font-size: 20px;
+    margin: 10px 0 10px;
+  }
+
+  .extlink img {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+}
+/* Media Tab Landscape View */
+@media (max-width: 568px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container > .navbar-header {
+    width: 100%;
+  }
+
+  .navbar-fixed-top .navbar-collapse {
+    display: none;
+  }
+
+  .fix-head .text-right {
+    text-align: right;
+    margin-right: 5px;
+  }
+
+  .intro {
+    background: url(../img/intro-background-mobile.jpg) repeat-x top scroll;
+  }
+
+  /*.intro:before { height: 520px;}*/
+  .intro ul.tabs-action li {
+    font-size: 14px;
+    width: 100%;
+    border-bottom: 1px solid #42c3ac;
+    border-right: none;
+  }
+
+  .intro ul.tabs-action li:last-child {
+    border-bottom: none;
+  }
+
+  .intro .intro-body .brand-heading {
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .intro .intro-body .intro-text {
+    font-size: 15px;
+  }
+
+  .intro .drag-section {
+    margin-top: 5px;
+  }
+
+  .dropzone-container {
+    min-height: 245px;
+  }
+
+  .reset-sample {
+    padding: 0 20px;
+  }
+
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 62px;
+  }
+
+  .col-extlink, .extlink.square {
+    padding: 0;
+    width: 100%;
+  }
+
+  .col-extlink {
+    padding: 0 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .intro .drag-section.contact {
+    margin-top: 45px;
+  }
+
+  .privacy .pol.page-header {
+    font-size: 22px;
+  }
+
+  .privacy .h3, .privacy h3 {
+    font-size: 20px;
+  }
+
+  .extlink-cont .extlink.square {
+    width: 100%;
+  }
+
+  .extlink .lione, .extlink .litwo {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .extlink img {
+    padding: 5px 50px;
+  }
+
+  .table-multi-resize .half-cell {
+    width: 95%;
+  }
+}
+/* Media Apple Landscape View */
+@media (max-width: 514px) {
+  .table-resize .tr {
+    border-bottom: 1px solid #f7f7f7;
+  }
+
+  .table-resize .tr .td {
+    margin-bottom: 10px;
+  }
+
+  .table-resize .tr .td, .table-resize .tr .td:first-child, .table-resize .tr .td:last-child {
+    width: 100%;
+  }
+
+  .table-resize .tr .td label {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  .table-resize .tr .td input {
+    width: 85%;
+  }
+
+  .table-resize .tr.bor-tb label {
+    width: 65%;
+  }
+
+  .table-resize .tr.bor-tb input {
+    width: 35%;
+  }
+
+  .table-resize .tr .td.opt, .table-resize .tr .td.last {
+    width: 100%;
+  }
+
+  .table-resize .tr.bor-tb {
+    border-color: #f7f7f7;
+  }
+
+  .table-resize .tr.file-size {
+    text-align: center;
+    padding: 0;
+  }
+
+  .table-resize .tr.file-size .wd100 {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 60px;
+    padding: 13px 5px;
+    margin-bottom: 20px;
+  }
+
+  .table-resize .tr.file-size .action .btn {
+    margin: auto;
+    max-width: 340px;
+  }
+
+  .dashed-section {
+    padding: 15px;
+  }
+
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 56px;
+  }
+
+  .privacy .pol.page-header u {
+    width: 100%;
+    word-break: break-all;
+  }
+}
+/* Media Android Landscape View */
+@media (max-width: 480px) {
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 53px;
+  }
+
+  .extlink img {
+    padding: 5px 15px;
+  }
+
+  .table-resize .tr.file-size .wd100 {
+    height: 65px;
+    line-height: 1.4;
+  }
+
+  .table-resize .tr.file-size .filesize_estimation {
+    display: block;
+  }
+
+  .intro #processing-message {
+    left: 10px;
+    right: 10px;
+    font-size: 0.8em;
+  }
+
+  .intro #processing-message img {
+    display: block;
+    margin: auto;
+  }
+
+  .dwnl-img .long-button {
+    font-size: 0.9em;
+  }
+}
+/* Media Apple iPhone 6+ Portrait View */
+@media (max-width: 418px) {
+  .container > .navbar-header {
+    width: 100%;
+  }
+
+  .reset-sample {
+    font-size: 12px;
+  }
+
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 46px;
+  }
+
+  .table-resize .tr.bor-tb label {
+    width: 60%;
+  }
+
+  .table-resize .tr.bor-tb input {
+    width: 55px;
+  }
+
+  .table-resize .tr.file-size .wd100 {
+    height: 80px;
+    font-size: 13px;
+  }
+
+  .drag-section.dwnl-img {
+    padding: 30px 5px;
+  }
+
+  .intro .drag-section {
+    width: 260px;
+    margin-left: -130px;
+  }
+
+  .intro .drag-section h4 {
+    font-size: 1em;
+  }
+
+  .dwnl-img .btn.btn-default {
+    padding: 5px 10px;
+  }
+
+  .dwnl-img p.msg {
+    padding: 0 20px;
+  }
+
+  .extlink .lione, .extlink .litwo {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .table-multi-resize input, .table-multi-resize select {
+    width: 90%;
+  }
+
+  #resize-form-offline .size-form-area select {
+    width: auto;
+  }
+
+  .plans > div {
+    width: 100%;
+  }
+}
+/* Media Apple iPhone 6 Portrait View */
+@media (max-width: 375px) {
+  .intro .intro-body .brand-heading {
+    font-size: 28px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 41px;
+  }
+
+  .table-resize .tr label {
+    width: 24%;
+  }
+
+  .table-resize .tr input {
+    width: 75%;
+  }
+
+  .extlink p.head {
+    font-size: 23px;
+    margin: 0;
+  }
+
+  .extlink .lione, .extlink .litwo {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .extlink img {
+    padding: 5px 25px;
+  }
+}
+/* Media Android Portrait View */
+@media (max-width: 360px) {
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 39px;
+  }
+}
+/* Media Android Portrait View */
+@media (max-width: 320px) {
+  .main-body .sample-image .col-md-5 img {
+    margin-top: 35px;
+  }
+
+  .dwnl-img .long-button {
+    font-size: 0.8em;
+  }
+
+  .table-resize .tr .td label {
+    width: 24%;
+  }
+
+  .table-resize .tr .td input {
+    width: 74%;
+  }
+
+  .table-resize .tr.bor-tb label {
+    width: 60%;
+  }
+
+  .table-resize .tr.bor-tb input {
+    width: 55px;
+  }
+}
+@media only screen and (min-width: 1052px) and (max-width: 1200px) {
+  .table-resize .tr {
+    font-size: 12px;
+  }
+
+  .table-resize .tr .td {
+    line-height: 2.3;
+  }
+
+  .table-resize .tr input, .table-resize .tr input[disabled], .table-resize .tr input[readonly] {
+    width: 56px;
+    margin-left: 2px;
+  }
+
+  select#soflow-color {
+    width: 60px;
+    padding-left: 2px;
+    left: 2px;
+  }
+
+  .table-resize .tr .td.opt {
+    width: 36%;
+  }
+
+  .table-resize .tr .td.last {
+    width: 33%;
+  }
+
+  .table-resize .btn-default {
+    padding: 10px 25px;
+    margin-right: 10px;
+  }
+
+  .table-resize .tr.bor-tb .td:first-child {
+    /*width: 30%; */
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1051px) {
+  .table-resize .tr.bor-tb .td {
+    /*width: 37%;*/
+  }
+
+  .table-resize .tr.bor-tb .td:first-child {
+    /*width: 30%;*/
+  }
+
+  .table-resize .tr.bor-tb .td:last-child {
+    /*width: 33%;*/
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 730px) {
+  .intro ul.tabs-action li {
+    font-size: 13px;
+  }
+}
+@media (max-width: 767px) {
+  .table-resize .tr.file-size {
+    padding: 0;
+    text-align: center;
+  }
+
+  .table-resize .tr.file-size .wd100 {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 60px;
+    padding: 13px 5px;
+    margin-bottom: 20px;
+  }
+
+  .table-resize .tr.file-size .action {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .table-resize .tr.file-size .action .btn {
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 569px) and (max-width: 655px) {
+  .intro ul.tabs-action li {
+    font-size: 12px;
+  }
+
+  .table-resize .tr.bor-tb .td, .table-resize .tr.bor-tb .td:first-child {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .table-resize .tr.bor-tb .td label {
+    width: 40%;
+    margin-right: 0;
+  }
+
+  .table-resize .tr.bor-tb .td input {
+    width: 60px;
+  }
+
+  .table-resize .tr .td:first-child {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
+
+/*# sourceMappingURL=media.css.map */
